@@ -27,25 +27,21 @@ Git
 
 ### Step 1. Clone the Repository
 
-git clone https://github.com/Sharayu1707/Deployment-Python-Web-Application-on-aws.git
+![Architecture](images/img-1.png)
 
-cd Deployment-Python-Web-Application-on-aws
+### Step 2. Launch Server
 
-### Step 2. Create Virtual Environment
+![Architecture](images/img-3.png)
 
-sudo apt update -y
+### Step 3. Create Virtual Environment
 
-sudo apt install python3-venv -y
+![Architecture](images/img-2.png)
 
-python3 -m venv venv
-
-source venv/bin/activate
-
-### Step 3. Install Dependencies
+### Step 4. Install Dependencies
 
 pip install -r requirements.txt
 
-### Step 4. Run the Application (Development Mode)
+### Step 5. Run the Application (Development Mode)
 
 python app.py
 
@@ -54,7 +50,7 @@ App will run at:
 
 http://13.250.96.220:5000
 
-🧩 5. Run the Application using Gunicorn (Production Mode)
+### Step 6. Run the Application using Gunicorn (Production Mode)
 
 venv/bin/gunicorn --bind 0.0.0.0:5000 app:app
 
@@ -68,6 +64,7 @@ Open in browser:
 
 http://13.250.96.220:5000
 
+![Architecture](images/img-4.png)
 
 If you see the Flask message → deployment successful ✔
 
