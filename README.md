@@ -35,7 +35,7 @@ Git
 
 ### Step 3. Create Virtual Environment
 
-![Architecture](images/img-2png)
+![Architecture](images/img-2.png)
 
 ### Step 4. Install Dependencies
 
